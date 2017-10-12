@@ -80,7 +80,7 @@ sudo apt-get update
 sudo apt-get install emacs25
 
 # if you want to remove it
-sudo apt remove emacs25 emacs25-nox && sudo apt autoremove
+sudo apt-get remove emacs25 emacs25-nox && sudo apt-get autoremove
 ```
 
 ## Feedback
