@@ -76,8 +76,8 @@ dconf write /org/gnome/desktop/input-sources/xkb-options "['ctrl:nocaps']"
 Install Emacs 25:
 ```bash
 sudo add-apt-repository ppa:kelleyk/emacs
-sudo apt update
-sudo apt install emacs25
+sudo apt-get update
+sudo apt-get install emacs25
 
 # if you want to remove it
 sudo apt remove emacs25 emacs25-nox && sudo apt autoremove
